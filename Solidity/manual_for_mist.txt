@@ -1,0 +1,8 @@
+https://gist.github.com/evertonfraga/9d65a9f3ea399ac138b3e40641accf23
+https://ethereum.stackexchange.com/questions/11726/mist-testnet-error-it-seems-this-transaction-will-fail
+
+Open Terminal (Cmd + space > terminal.app)
+Run geth --dev --ipcpath ~/Library/Ethereum/geth.ipc console
+on the Terminal, type personal.newAccount() to create a password for your default (etherbase) account
+on the Terminal, type miner.start().
+open Mist
